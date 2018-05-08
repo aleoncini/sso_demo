@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Demo app for SSO">
+    <meta name="author" content="Andrea Leoncini">
+    <meta name="keywords" value="red hat, sso, keycloak, idp">
+    <link rel="icon" href="favicon.ico">
+
+    <title>SSO Demo</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/ssodemo.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="http://www.zingarotour.org">Red Hat <span style="color: #A30000">SSO</span></a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="def-zt-template">
+        <h1>Demo <span style="color: #A30000">application</span></h1>
+
+        <div class="alert alert-danger" style="display: none"  role="alert" id="not_logged_in">
+          <h4 class="alert-heading">Oh oh! It seems you'r not logged in.</h4>
+          <p>You have tried to access the back-end restful service but you are granted.</p>
+          <hr>
+          <p class="mb-0">Probably you don't have a valid session. Try to log in using the link.</p>
+        </div>
+
+        <div class="alert alert-success alert-dismissible" style="display: none" role="alert" id="valid_session">
+          <strong>Very well!</strong> You have a valid session.
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+
+        <p class="lead">This is a free web page (not protected for access), following a list of action you can do:
+        <p class="lead">Have fun with Red Hat software!</p>
+
+        <h3>Test</h3>
+        <p class="lead">If you have a valid session</p>
+
+        <h3>Access</h3>
+        <p class="lead">the protected page</p>
+
+        <h3>Admin</h3>
+        <p class="lead">your profile</p>
+
+      </div>
+    </div>
+
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <!-- <script src="js/tether.min.js"></script> -->
+  <script src="js/bootstrap.min.js"></script>
+
+  <script>
+
+      $(document).ready(function(){
+        //doubleCheck();
+      });
+
+  </script>
+
+  </body>
+</html>

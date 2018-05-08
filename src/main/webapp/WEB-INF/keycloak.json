@@ -1,0 +1,8 @@
+{
+  "realm": "rstest",
+  "auth-server-url": "http://idp.dev:8080/auth",
+  "ssl-required": "NONE",
+  "resource": "sec-rs-test",
+  "public-client": true,
+  "confidential-port": 0
+}

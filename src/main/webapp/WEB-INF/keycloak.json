@@ -1,8 +1,8 @@
 {
-  "realm": "rstest",
-  "auth-server-url": "http://idp.dev:8080/auth",
+  "realm": "demoistat",
+  "auth-server-url": "http://idp.istat.dev:8080/auth",
   "ssl-required": "NONE",
-  "resource": "sec-rs-test",
+  "resource": "app-istat",
   "public-client": true,
   "confidential-port": 0
 }

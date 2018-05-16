@@ -5,15 +5,12 @@
 <web-app>
   <display-name>Secure Proxy Rest Service</display-name>
 
-  <!--
   <security-constraint>
     <web-resource-collection>
       <web-resource-name>test</web-resource-name>
-      <url-pattern>/sproxy/rs/echo/*</url-pattern>
+      <url-pattern>/rs/info/*</url-pattern>
+      <url-pattern>/protected.html</url-pattern>
     </web-resource-collection>
-    <auth-constraint>
-      <role-name>user</role-name>
-    </auth-constraint>
   </security-constraint>
 
   <login-config>
@@ -23,5 +20,5 @@
   <security-role>
     <role-name>user</role-name>
   </security-role>
-  -->
+
 </web-app>

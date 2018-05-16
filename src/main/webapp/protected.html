@@ -8,7 +8,7 @@
     <meta name="keywords" value="red hat, sso, keycloak, idp">
     <link rel="icon" href="favicon.ico">
 
-    <title>SSO Demo</title>
+    <title>Protected Page</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -29,7 +29,7 @@
 
     <div class="container">
       <div class="def-zt-template">
-        <h1>Demo <span style="color: #A30000">application</span></h1>
+        <h1>Protected <span style="color: #A30000">page</span></h1>
 
         <div class="alert alert-danger" style="display: none"  role="alert" id="not_logged_in">
           <h4 class="alert-heading">Oh oh! It seems you'r not logged in.</h4>
@@ -45,17 +45,11 @@
           </button>
         </div>
 
-        <p class="lead">This is a free web page (not protected for access), following a list of action you can do:
-        <p class="lead">Have fun with Red Hat software!</p>
+        <p class="lead">This is a protected web page, if you can read means that you have successfully logged into the system.
+        <p class="lead">Many compliments!</p>
 
-        <h3>Test</h3>
-        <p class="lead">If you have a valid session</p>
-
-        <h3>Access</h3>
-        <p class="lead">the <a href="protected.html">protected page</a></p>
-
-        <h3>Admin</h3>
-        <p class="lead">your profile <a href="http://idp.istat.dev:8080/auth/realms/demoistat/account">here</a></p>
+        <h3>Check here</h3>
+        <p class="lead">Information about your <a href="http://idp.istat.dev:8080/auth/realms/demoistat/account/sessions">SSO Session</a></p>
 
       </div>
     </div>
